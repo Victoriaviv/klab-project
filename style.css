@@ -1,0 +1,240 @@
+.logo{
+   
+    font-size: 30px;
+   color: #f1cd39;
+}
+
+body{
+    font-family: 'Roboto',sans-serif;
+    background-color:#1e1e1e;
+    color: white;
+}
+ul{
+display: flex;
+list-style: none;
+font-size: 30px;
+padding-left: 600px;
+color: white;
+text-decoration: none;
+}
+ul p a{
+    text-decoration: none;
+    color: white;
+}
+ul p a:hover{
+    color: #f1cd39;
+    
+}
+.navbar-container{
+    display: flex;
+    align-items: center;
+    padding: 0 60px;
+    height:100%;
+    color: white;
+    font-family: 'sen',sans-serif;
+
+}
+
+ul p{
+    margin-right: 30px;
+}
+header{
+    height: 55vh;
+    width: 160vh;
+    background-image: url("p.png");
+    background-position: center right;
+    background-repeat: no-repeat;
+    padding-left: 55px;
+    margin-top: 70px;
+}
+.header_container h1 span{
+    color: #f1cd39;
+    font-size: 60px;
+}
+.header_container h1{
+    font-size: 60px;
+}
+.header_container p{
+    font-size: 50px;
+}
+.btn1{
+    background-color:  #f1cd39;
+    color: white;
+    font-size: 30px;
+    border: none;
+    border-radius:15px;
+    padding-right: 10px;
+    margin-left: 10px;
+    height: 60px;
+}
+.btn2:hover{
+background-color: black;
+}
+.btn1:hover{
+    background-color: black;
+}
+.btn2{
+    background-color: #1e1e1e;
+    color: white;
+    font-size: 25px;
+    border: solid;
+    border-color: white;
+    border-radius:15px;
+    margin-left: 20px;
+    height: 60px;
+}
+.about-content h2{
+    font-size: 120px;
+    padding-left: 470px;
+    margin-bottom:-160px;
+    margin-top: 100px;
+    color: #616161;
+}
+.about-content h1{
+    font-size: 40px;
+    padding-left: 550px;
+    padding-bottom: 900px;
+    
+    
+}
+.about-contennt{
+    /*background-image: url(j.png);*/
+    background-position: center left;
+    background-repeat: no-repeat;
+    padding-left: 60px;
+}
+.content{
+    padding-left: 800px;
+    margin-top: -700px;
+    font-size: 30px;
+    line-height: 55px;
+    background-image: url(j.png);
+    background-position:  left;
+    background-repeat: no-repeat;
+    height: 40vh;
+}
+.development h2{
+    font-size: 40px;
+    padding-left: 600px;
+    padding-bottom:-20px;
+    margin-top: -175px;
+}
+.development h1{
+    font-size: 100px;
+    padding-left: 470px;
+   padding-top:10px;
+    color: #616161;
+    margin-top: 40px;
+}
+.service_card{
+    display: grid;
+    align-items:center;
+    gap:1rem;
+    padding: 4rem;
+    height: 150px;
+    background-color:#161616;
+    border-radius: 5px;
+   
+}
+.container{
+    display:flex;
+   /* grid-template-columns: repeat(1,1fr);*/
+    gap: 5rem;
+    margin-top: 10rem;
+    margin-left: 15rem;
+  
+}
+.service_card img{
+    width:90px;
+    color: #f1cd39;
+    padding-left: 3rem;
+}
+.service_card p{
+    font-weight:bold;
+    font-size:20px;
+   
+}
+.section h2{
+    font-size: 40px;
+    padding-left: 600px;
+    padding-bottom:-30px;
+    margin-top: -155px;
+}
+.section h1{
+    font-size: 80px;
+    padding-left: 470px;
+   padding-top:10px;
+    color: #616161;
+    margin-top: 40px;
+}
+.addres{
+    display:grid;
+    margin-left: 15rem;
+}
+.section-container{
+    display: flex;
+    margin-top: 10rem;
+}
+.addres img{
+    padding-left: 2rem;
+}
+.addres p{
+    font-size: 20px;
+    font-weight:bold;
+}
+.footer_form{
+    display: grid;
+    gap: 1rem;
+  
+    width: 50%;
+    padding-left: 450px;
+    margin-top: 5rem;
+background-image: url(p.png);
+background-position: left;
+background-repeat: no-repeat;
+height: 60vh;
+background-color: white;
+margin-left: 5rem;
+}
+.footer_form :is(input, textarea){
+    padding:1rem;
+    background-color:white;
+    outline: none;
+    border: solid;
+    border-radius: 20px;
+    color:#d9d9d9;
+    border-color: #d9d9d9;
+    
+}
+.btn{
+    color:black;
+    background-color: #f1cd39;
+    border: none;
+    border-radius: 20px;
+    width: 25%;
+    height: 50px;
+    margin-left: 17rem;
+}
+.social_icons{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    height: 20px;
+    width: 20px;
+    margin-top: 2rem;
+   margin-left: 5rem;
+   margin-bottom: 2rem;
+    }
+.social_icons .icon{
+    padding: 1rem;
+    border-radius:3rem;
+    color:white;
+    background-color:#f1cd39;
+    transition:0.3s;
+    cursor:pointer;
+    gap: 0rem;
+}
+.social_icons .icon:hover{
+    background-color:black;
+
+}
