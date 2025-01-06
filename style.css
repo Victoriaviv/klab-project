@@ -71,6 +71,14 @@ header{
     height: 60px;
     text-decoration: none;
 }
+.btn1 a{
+    text-decoration: none;
+    color: white;
+}
+.btn2 a{
+    text-decoration: none;
+    color: white;
+}
 .btn2:hover{
 background-color: black;
 }
@@ -87,7 +95,7 @@ background-color: black;
     margin-left: 20px;
     height: 60px;
     text-decoration: none;
-    color: #f1cd39;
+    
 }
 .about-content h2{
     font-size: 120px;
