@@ -13,7 +13,7 @@ ul{
 display: flex;
 list-style: none;
 font-size: 30px;
-padding-left: 600px;
+padding-left: 500px;
 color: white;
 text-decoration: none;
 }
@@ -147,12 +147,12 @@ background-color: black;
     gap:1rem;
     padding: 4rem;
     height: 150px;
-    background-color:#161616;
+    background-color:#616161;
     border-radius: 5px;
    
 }
 .service_card:hover{
-    background-color: #f1cd39;
+    background-color:#f1cd39;
 }
 .container{
     display:flex;
@@ -256,3 +256,24 @@ margin-left: 5rem;
     background-color:black;
 
 }
+media screen and (max-width: 600px) {
+    .ul p a:not(:first-child) {display: none;}
+    .ul p a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .menu-container.responsive {position: relative;}
+    .menu-container.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .menu-container.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
