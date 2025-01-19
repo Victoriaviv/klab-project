@@ -259,17 +259,41 @@ margin-left: 5rem;
 }
 @media(max-width:720px){
     ul{
-     display:block;
+     display:flex;
      justify-content:start;
-     padding-left:5px;
+    margin-left: -400px;
+     font-size: 16px;
+    }
+    header{
+        background-image: url(p.png);
+        width: 720px;
+    }
+
+    .header_container h1{
+        font-size: 30px;
+    }
+    .header_container h1 span{
+        font-size: 30px;
+    }
+    ul p a{
+        padding-right:10px;
+       
+        padding-left: 10px;
+    }
+    .header_container p{
+        font-size: 16px;
     }
     .navbar-container{
-        display: block;
+        display:flex;
+        width: 720px;
+    }
+    .menu-container{
+        width: 720px;
     }
     .service_card{
         display: block;
         margin-bottom: 2rem;
-        
+        padding: 2rem;
     }
     .container{
         display:block;
@@ -282,9 +306,18 @@ margin-left: 5rem;
         display:block;
     }
     .footer_form{
-        display: block;
+        display: grid;
+        width: 25%;
+    }
+    .footer_form :is(input, textarea){
+        width: 50%;
     }
     .content{
         padding-left:6px;
+    }
+    .btn{
+        width: 50%;
+        padding-left: 2px;
+        margin-left: -10px;
     }
 }
